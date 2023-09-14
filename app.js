@@ -30,7 +30,7 @@ app.post('/validateUser',(req,res)=>{
     }
 })
 
-// Sending Image Or FIles to Server
+// Sending Image Or Files to Server
 app.get('/getImage',(req,res)=>{
     res.send("",path.join(__dirname,""))
 })
